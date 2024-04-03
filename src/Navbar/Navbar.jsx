@@ -38,7 +38,7 @@ export default function Navbar() {
         sessoes.forEach(sessao => {
             sessao.addEventListener('click', () => close());
         });
-    }, []);
+    }, [mobileVersion]);
 
 
 
