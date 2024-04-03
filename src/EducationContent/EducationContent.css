@@ -43,12 +43,6 @@
     box-sizing: border-box;
     background-color: var(--body-bg-darker);
     border-left: 3px solid var(--color-cyan);
-    /* border: double 1px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(#121212, #121212), radial-gradient(circle at top left, #9358F7,#10D7E2);
-    background-origin: border-box;
-    background-clip: padding-box, border-box; 
-    overflow: hidden;*/
 }
 
 .infos{
