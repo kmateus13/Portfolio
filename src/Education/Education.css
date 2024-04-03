@@ -1,0 +1,6 @@
+.Education {
+    width: 100%;
+    background-color: var(--body-bg-dark);
+    display: flex;
+    justify-content: center;
+}

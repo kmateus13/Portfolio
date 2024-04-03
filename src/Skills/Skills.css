@@ -1,0 +1,6 @@
+.Skills{
+    width: 100%;
+    background-color: var(--body-bg-darker);
+    display: flex;
+    justify-content: center;
+}
