@@ -1,5 +1,11 @@
 .button{
-    padding: 12px 38px;
+    width: 50%;
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    padding: auto;
     background: none;
     color: var(--title-white);
     font-size: 16px;
