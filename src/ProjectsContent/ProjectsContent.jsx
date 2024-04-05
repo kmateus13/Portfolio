@@ -11,6 +11,7 @@ export default function ProjectsContent() {
             nome: 'Landing Page',
             sobre: 'Uma Landing Page que permite aos usuários acessar informações sobre a empresa e navegar pelos produtos oferecidos. Além disso, oferece recursos de gerenciamento de produtos através de um painel de controle acessível apenas por meio de um login administrativo.',
             tecnologias: [<BiLogoHtml5 />, <BiLogoCss3 />, <BiLogoJavascript />, <BiLogoFirebase />],
+            link: 'https://github.com/kmateus13/Page-Oxeconcretos'
         },
         {
             id: 2,
@@ -18,6 +19,7 @@ export default function ProjectsContent() {
             nome: 'MedAPP',
             sobre: 'Aplicação projetada para clínicas médicas, permitindo que os pacientes agendem consultas e visualizem seus agendamentos.',
             tecnologias: [<BiLogoHtml5 />, <BiLogoCss3 />, <BiLogoJavascript />, <BiLogoFirebase />],
+            link: 'https://github.com/kmateus13/MedAPP'
         },
         {
             id: 3,
@@ -25,6 +27,7 @@ export default function ProjectsContent() {
             nome: 'Conversor De Unidades',
             sobre: 'Este é um projeto simples de conversão de unidades que permite converter temperaturas, moedas, distâncias e tempos.',
             tecnologias: [<BiLogoHtml5 />, <BiLogoCss3 />, <BiLogoJavascript />],
+            link: 'https://github.com/kmateus13/Conversor-De-Unidades'
         },
         {
             id: 4,
@@ -32,6 +35,7 @@ export default function ProjectsContent() {
             nome: 'Link in Bio',
             sobre: 'Permite aos usuários do Instagram e outras redes sociais adicionar vários links em um único local. Com este projeto, os usuários podem adicionar links para seus sites, blogs, portfólios e outras redes sociais em uma única página.',
             tecnologias: [<BiLogoHtml5 />, <BiLogoCss3 />, <BiLogoJavascript />],
+            link: 'https://github.com/kmateus13/Link-in-Bio'
         },
     ]
 
@@ -64,7 +68,7 @@ export default function ProjectsContent() {
                                 </div>
                             </div>
                             <div>
-                                <Button icon={<BiLinkAlt />} name='Visualizar' gradient={'#9358F7, #10D7E2'} />
+                                <Button icon={<BiLinkAlt />} name='Visualizar' gradient={'#9358F7, #10D7E2'} link={projeto.link} />
                             </div>
                         </div>
                     )

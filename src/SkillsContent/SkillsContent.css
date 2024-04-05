@@ -5,7 +5,7 @@
     padding: 64px 0;
 }
 
-.skillsContentContainer h1{
+.skillsContentContainer h1 {
     font-size: 24px;
     font-weight: 600;
     color: var(--title-white);
@@ -30,4 +30,12 @@
     font-size: 46px;
     border-left: 3px solid var(--color-cyan);
     border-top-right-radius: 40px;
+}
+
+
+@media (max-width: 974px) {
+    .contentSkill {
+        width: 90px !important;
+        height: 90px !important;
+    }
 }

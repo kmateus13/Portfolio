@@ -21,11 +21,12 @@
 
 .project{
     width: 530px;
-    height: 530px;
+    /* height: 530px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     text-align: justify;
+    gap: 26px;
 }
 
 .project .fotoProjeto{
@@ -42,7 +43,7 @@
 }
 
 .project .descricao{
-    width: 90%;
+    width: 100%;
 }
 
 .project .descricao h1{

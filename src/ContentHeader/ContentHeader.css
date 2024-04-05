@@ -46,10 +46,10 @@
     .rightContent{
         display: none;
     }
-    .leftContent{
+    /* .leftContent{
         flex: 1;
         padding: 0 72px;
-    }
+    } */
     .leftContent h1{
         font-size: 61px;
     }
