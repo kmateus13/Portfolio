@@ -1,6 +1,6 @@
 import Button from '../Button/Button'
 import './AboutContent.css'
-import { FiDownloadCloud, FiMail, FiInstagram, FiFacebook, FiLinkedin, FiGithub } from 'react-icons/fi'
+import { FiDownloadCloud, FiMail, FiInstagram,  FiLinkedin, FiGithub } from 'react-icons/fi'
 
 export default function AboutContent() {
     return (
