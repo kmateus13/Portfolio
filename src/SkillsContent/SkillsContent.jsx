@@ -12,7 +12,7 @@ export default function SkillsContent() {
             <div className='containerSkill'>
                 {skills.map((skill, index) => {
                     return (
-                        <div className='contentSkill' key={index}>
+                        <div className='contentSkill effectScroll' key={index}>
                             {skill}
                         </div>
                     )

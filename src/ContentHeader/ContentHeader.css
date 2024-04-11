@@ -1,4 +1,4 @@
-.content{
+.content {
     width: 100%;
     height: 70vh;
     display: flex;
@@ -6,7 +6,7 @@
     margin-top: 109px;
 }
 
-.leftContent{
+.leftContent {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -14,14 +14,14 @@
     gap: 8px;
 }
 
-.leftContent h3{
+.leftContent h3 {
     font-size: 34px;
     font-weight: 600;
     color: var(--title-white);
     margin: 0;
 }
 
-.leftContent h1{
+.leftContent h1 {
     font-size: 86px;
     font-weight: 600;
     color: var(--color-cyan);
@@ -29,7 +29,7 @@
 }
 
 
-.leftContent .container_button{
+.leftContent .container_button {
     display: flex;
     gap: 24px;
     margin-top: 8px;
@@ -37,24 +37,38 @@
 
 
 
-.rightContent{
-   position: absolute;
-   right: 0;
+.rightContent {
+    min-height: 665px;
+    position: absolute;
+    right: 0;
 }
 
+
+
 @media (max-width: 974px) {
-    .rightContent{
+    .rightContent {
         display: none;
     }
+
     /* .leftContent{
         flex: 1;
         padding: 0 72px;
     } */
-    .leftContent h1{
+    .leftContent h1 {
         font-size: 61px;
     }
-    .leftContent h3{
+
+    .leftContent h3 {
         font-size: 24px;
     }
 
+}
+
+@media (max-height: 840px){
+    .rightContent{
+        top: 10%;
+    }
+    .rightContent img {
+        height: 500px !important; 
+    }
 }

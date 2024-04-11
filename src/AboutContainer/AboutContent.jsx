@@ -1,20 +1,29 @@
+import { useEffect } from 'react';
 import Button from '../Button/Button'
 import './AboutContent.css'
-import { FiDownloadCloud, FiMail, FiInstagram,  FiLinkedin, FiGithub } from 'react-icons/fi'
-
+import { FiDownloadCloud, FiMail, FiInstagram, FiLinkedin, FiGithub } from 'react-icons/fi'
+import ScrollReveal from 'scrollreveal';
 export default function AboutContent() {
+    // useEffect(() => {
+    //     ScrollReveal().reveal('.effectScroll', {
+    //         interval: 500,
+    //         reset: true,
+    //         origin: 'left'
+    //     });
+    // }, []);
+
     return (
         <div className='aboutContainer'>
-            <div className='leftContainer'>
+            <div className='leftContainer effectScroll'>
                 <div className='foto'>
 
                 </div>
             </div>
-            <div className='rightContainer'>
+            <div className='rightContainer effectScroll'>
                 <h1>SOBRE MIM</h1>
                 <h3>Campina Grande - PB, Brasil</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil at praesentium et deserunt animi nisi delectus nostrum necessitatibus facere in, maiores, laborum consequuntur ducimus aliquid ipsa vitae reiciendis rem eius.
+                Estudante entusiasmado em busca de oportunidades para iniciar uma carreira como desenvolvedor, com conhecimentos na área de administração e interesse em programação. Familiarizado com conceitos de desenvolvimento web e pronto para aplicar habilidades técnicas em projetos desafiadores
                 </p>
                 <div className='iconsContainer'>
                     <a href='https://www.instagram.com/klisman013/'><FiInstagram size={24} /></a>

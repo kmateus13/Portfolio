@@ -46,7 +46,7 @@ export default function ProjectsContent() {
             <div className='containerProject'>
                 {projetos.map((projeto) => {
                     return (
-                        <div className='project' key={projeto.id}>
+                        <div className='project effectScroll' key={projeto.id}>
                             <div className='fotoProjeto'>
                                 <img src={projeto.foto} alt={`Imagem do projeto ${projeto.nome}`} />
                             </div>

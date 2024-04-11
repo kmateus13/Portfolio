@@ -37,6 +37,7 @@
     font-weight: 300;
     color: var(--color-gray);
     text-align: justify;
+    letter-spacing: -0.5px;
     margin: 0;
     margin-bottom: 24px;
 }
@@ -66,6 +67,7 @@
     background-position: center;
     background-size: cover;
 }
+
 
 @media (max-width: 974px) {
     .aboutContainer {

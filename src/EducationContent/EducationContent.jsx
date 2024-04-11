@@ -1,4 +1,6 @@
+import { useEffect } from 'react';
 import './EducationContent.css'
+
 
 export default function EducationContent() {
 
@@ -24,13 +26,15 @@ export default function EducationContent() {
         },
     ]
 
+    
+
     return (
         <div className='educationContainer'>
             <h1>FORMAÇÃO ACADÊMICA</h1>
             <div className='containerSchool'>
                 {schools.map((school, index) => {
                     return (
-                        <div className='contentSchool' key={index}>
+                        <div className='contentSchool effectScroll' key={index}>
                             <div className='containerImagem'>
                                 <img src={school.imagem} alt="Imagem da Escola" />
                             </div>
