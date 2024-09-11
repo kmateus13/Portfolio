@@ -17,7 +17,7 @@ export default function ContentHeader() {
             <div className='leftContent'>
                 <h3 className='introduction1'>OLÁ, EU SOU</h3>
                 <h1 className='introduction2'>KLISMAN MATEUS</h1>
-                <h3 className='introduction3'>DESENVOLVEDOR FRONT-END</h3>
+                <h3 className='introduction3'>DESENVOLVEDOR</h3>
                 <div className='container_button introduction4'>
                     <Button icon={<FiLinkedin />} name='Linkedin' gradient='#9358F7, #10D7E2' className='btnLinkedin' link='https://www.linkedin.com/in/klismanmateus/' />
                     <Button icon={<FiGithub />} name='Github' gradient='#D24074, #6518B4' className='btnGithub' link='https://github.com/kmateus13' />

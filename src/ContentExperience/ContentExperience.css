@@ -59,6 +59,7 @@
     color: var(--color-gray);
     margin-top: 26px;
     text-align: justify;
+    word-spacing: 1px;
 }
 
 .containerTitle{

@@ -31,7 +31,7 @@ export default function AboutContent() {
                     <a href='https://github.com/kmateus13'><FiGithub size={24} /></a>
                 </div>
                 <div className='buttonsContainer'>
-                    <Button icon={<FiDownloadCloud />} name='Currículo' gradient='#D24074, #6518B4' />
+                    <Button icon={<FiDownloadCloud />} name='Currículo' gradient='#D24074, #6518B4' link="./Curriculo.pdf" />
                     <Button icon={<FiMail />} name='E-mail' gradient='#9358F7, #10D7E2' link='mailto:klismanmts@gmail.com' />
                 </div>
             </div>

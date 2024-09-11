@@ -15,13 +15,13 @@ export default function ContentExperience() {
         {
             empresa: 'Atacadão',
             profissao: 'Auxiliar Administrativo',
-            competencia: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            competencia: "Auxiliar Administrativo responsável por controle e organização de documentos, atendimento a funcionários, apoio nos processos de recrutamento e seleção, gestão de planilhas e relatórios, além de suporte na implementação de políticas e procedimentos internos da empresa.",
             periodo: 'Jan 2018 - Atual'
         },
         {
             empresa: 'Atacadão',
             profissao: 'Jovem Aprendiz',
-            competencia: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+            competencia: 'Auxiliar Administrativo responsável por controle e organização de documentos, atendimento a funcionários, apoio nos processos de recrutamento e seleção, gestão de planilhas e relatórios, além de suporte na implementação de políticas e procedimentos internos da empresa.',
             periodo: 'Fev 2017 - Dez 2017'
         },
     ]

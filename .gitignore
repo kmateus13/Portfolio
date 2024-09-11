@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+/public/Curriculo.pdf
+/public/3a64371d-a89c-44e0-a3d5-aabb7ed05952.jpg
+
 # testing
 /coverage
 
